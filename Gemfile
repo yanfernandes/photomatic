@@ -15,6 +15,7 @@ gem "bootsnap", ">= 1.4.4", require: false
 gem "superconfig"
 gem "dotenv"
 gem 'sprockets-rails', '~> 3.0', '>= 3.0.4'
+gem 'human_routes'
 
 group :development, :test do
   gem "pry-meta"
