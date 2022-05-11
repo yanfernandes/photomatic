@@ -16,6 +16,8 @@ gem "superconfig"
 gem "dotenv"
 gem 'sprockets-rails', '~> 3.0', '>= 3.0.4'
 gem 'human_routes'
+gem 'attr_keyring'
+gem 'ar-uuid'
 
 group :development, :test do
   gem "pry-meta"
