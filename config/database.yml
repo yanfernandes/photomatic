@@ -1,7 +1,9 @@
 ---
 development:
-  DATABASE_URL: postgres:///photomatic_dev
+  adapter: postresql
+  name: photomatic_dev
 test:
-  DATABASE_URL: postgres:///photomatic_test
+  adapter: postresql
+  name: photomatic_test
 production:
   DATABASE_URL: <%= Photomatic::Config.database_url %>
