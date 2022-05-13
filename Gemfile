@@ -18,6 +18,7 @@ gem 'sprockets-rails', '~> 3.0', '>= 3.0.4'
 gem 'human_routes'
 gem 'attr_keyring'
 gem 'ar-uuid'
+gem 'voltage'
 
 group :development, :test do
   gem "pry-meta"
