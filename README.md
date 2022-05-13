@@ -1,24 +1,9 @@
-# README
+![Photomatic](https://user-images.githubusercontent.com/59852101/168199976-88c8f4e4-8960-4831-aa26-53ddd52bfc98.jpg)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Photomatic is a social network for photographs
 
-Things you may want to cover:
+Based in Photomatic created by @fnando
 
-* Ruby version
+# Basic infos
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Encryption for emails using Rails native Encrypted feature
