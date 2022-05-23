@@ -12,13 +12,17 @@ gem "turbo-rails", ">= 0.7.11"
 gem "stimulus-rails", ">= 0.4.0"
 gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 gem "bootsnap", ">= 1.4.4", require: false
+
 gem "superconfig"
 gem "dotenv"
 gem 'sprockets-rails', '~> 3.0', '>= 3.0.4'
 gem 'human_routes'
 gem 'attr_keyring'
 gem 'ar-uuid'
+gem 'ar-bigint'
+gem 'ar-timestamptz'
 gem 'voltage'
+gem 'url_signature'
 
 group :development, :test do
   gem "pry-meta"

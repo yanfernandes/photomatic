@@ -68,6 +68,10 @@ GEM
       tzinfo (~> 2.0)
     addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
+    ar-bigint (0.2.0)
+      activerecord
+    ar-timestamptz (0.2.0)
+      activerecord
     ar-uuid (0.2.2)
       activerecord
     ast (2.4.2)
@@ -236,6 +240,7 @@ GEM
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
     unicode-display_width (2.1.0)
+    url_signature (0.0.2)
     voltage (0.1.0)
     webdrivers (5.0.0)
       nokogiri (~> 1.6)
@@ -252,6 +257,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  ar-bigint
+  ar-timestamptz
   ar-uuid
   attr_keyring
   bootsnap (>= 1.4.4)
@@ -274,6 +281,7 @@ DEPENDENCIES
   superconfig
   turbo-rails (>= 0.7.11)
   tzinfo-data
+  url_signature
   voltage
   webdrivers
 
